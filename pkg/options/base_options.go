@@ -7,9 +7,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/signals"
 	"github.com/jenkins-x/jx-logging/v3/pkg/log"
 	"github.com/pkg/errors"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/signals"
 	"github.com/spf13/cobra"
 )
 

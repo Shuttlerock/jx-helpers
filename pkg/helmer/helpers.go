@@ -15,12 +15,12 @@ import (
 	"github.com/jenkins-x/jx-api/v4/pkg/util"
 
 	"github.com/google/uuid"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/files"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/maps"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/table"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/termcolor"
 	"github.com/jenkins-x/jx-logging/v3/pkg/log"
 	"github.com/pkg/errors"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/files"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/maps"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/table"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/termcolor"
 	"sigs.k8s.io/yaml"
 
 	"helm.sh/helm/v3/pkg/chart"

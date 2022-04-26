@@ -9,8 +9,8 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/AlecAivazis/survey/v2/terminal"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/input"
 	"github.com/jenkins-x/jx-logging/v3/pkg/log"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/input"
 )
 
 type client struct {

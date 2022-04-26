@@ -3,8 +3,8 @@ package fake
 import (
 	"strings"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/input"
 	"github.com/pkg/errors"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/input"
 )
 
 // FakeInput provide a fake provider for testing

@@ -8,9 +8,9 @@ import (
 
 	jxcore "github.com/jenkins-x/jx-api/v4/pkg/apis/core/v4beta1"
 	"github.com/jenkins-x/jx-api/v4/pkg/util"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/files"
 	"github.com/jenkins-x/jx-logging/v3/pkg/log"
 	"github.com/pkg/errors"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/files"
 	"sigs.k8s.io/yaml"
 )
 

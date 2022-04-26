@@ -17,9 +17,9 @@ import (
 
 	jxClient "github.com/jenkins-x/jx-api/v4/pkg/client/clientset/versioned"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/files"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/httphelpers"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/termcolor"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/files"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/httphelpers"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/termcolor"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
 	"github.com/jenkins-x/jx-logging/v3/pkg/log"

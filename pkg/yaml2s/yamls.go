@@ -3,7 +3,7 @@ package yaml2s
 import (
 	"io/ioutil"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/files"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/files"
 	"gopkg.in/yaml.v2"
 
 	"github.com/pkg/errors"

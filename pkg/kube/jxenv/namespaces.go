@@ -6,9 +6,9 @@ import (
 
 	v1 "github.com/jenkins-x/jx-api/v4/pkg/apis/jenkins.io/v1"
 	"github.com/jenkins-x/jx-api/v4/pkg/client/clientset/versioned"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/kube"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/kube/naming"
 	"github.com/jenkins-x/jx-logging/v3/pkg/log"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/kube"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/kube/naming"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/kubernetes"

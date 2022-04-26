@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/extensions"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/testhelpers"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/extensions"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/testhelpers"
 
 	"github.com/jenkins-x/jx-logging/v3/pkg/log"
 

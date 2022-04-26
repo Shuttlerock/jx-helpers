@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	helm "github.com/jenkins-x/jx-helpers/v3/pkg/helmer"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/maps"
 	"github.com/magiconair/properties/assert"
+	helm "github.com/shuttlerock/jx-helpers/v3/pkg/helmer"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/maps"
 )
 
 func TestCombineMapTrees(t *testing.T) {

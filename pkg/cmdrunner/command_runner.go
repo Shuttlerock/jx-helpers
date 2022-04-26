@@ -3,8 +3,8 @@ package cmdrunner
 import (
 	"strings"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/termcolor"
 	"github.com/jenkins-x/jx-logging/v3/pkg/log"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/termcolor"
 )
 
 // CommandRunner represents a command runner so that it can be stubbed out for testing

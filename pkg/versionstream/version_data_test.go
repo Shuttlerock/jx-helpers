@@ -9,7 +9,7 @@ import (
 	"os"
 	"testing"
 
-	. "github.com/jenkins-x/jx-helpers/v3/pkg/versionstream"
+	. "github.com/shuttlerock/jx-helpers/v3/pkg/versionstream"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

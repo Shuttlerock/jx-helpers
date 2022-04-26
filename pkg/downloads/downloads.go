@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/jenkins-x/go-scm/scm"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/httphelpers"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/termcolor"
 	"github.com/jenkins-x/jx-logging/v3/pkg/log"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/httphelpers"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/termcolor"
 )
 
 var githubClient *scm.Client

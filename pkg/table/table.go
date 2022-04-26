@@ -5,7 +5,7 @@ import (
 	"io"
 	"unicode/utf8"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/stripansi"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/stripansi"
 )
 
 type Table struct {

@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/cobras/helper"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/files"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/cobras/helper"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/files"
 	"github.com/spf13/cobra"
 	"github.com/stretchr/testify/assert"
 )

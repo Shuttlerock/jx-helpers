@@ -12,16 +12,16 @@ import (
 
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/gitclient/credentialhelper"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/gitclient/giturl"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/kube"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/gitclient/credentialhelper"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/gitclient/giturl"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/kube"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/files"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/homedir"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/termcolor"
 	"github.com/jenkins-x/jx-logging/v3/pkg/log"
 	"github.com/pkg/errors"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/files"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/homedir"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/termcolor"
 )
 
 const (

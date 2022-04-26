@@ -11,10 +11,10 @@ import (
 
 	jxCore "github.com/jenkins-x/jx-api/v4/pkg/apis/jenkins.io/v1"
 	"github.com/jenkins-x/jx-api/v4/pkg/client/clientset/versioned"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/extensions"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/kube/jxclient"
 	"github.com/jenkins-x/jx-logging/v3/pkg/log"
 	"github.com/pkg/errors"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/extensions"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/kube/jxclient"
 	"github.com/spf13/cobra"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

@@ -7,10 +7,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/stringhelpers"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/stringhelpers"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/kube"
 	"github.com/pkg/errors"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/kube"
 
 	v1 "github.com/jenkins-x/jx-api/v4/pkg/apis/jenkins.io/v1"
 	"github.com/jenkins-x/jx-api/v4/pkg/client/clientset/versioned"

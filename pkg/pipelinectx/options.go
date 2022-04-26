@@ -4,10 +4,10 @@ import (
 	"context"
 	"strconv"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/kube/naming"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/options"
 	"github.com/pkg/errors"
 	"github.com/sethvargo/go-envconfig"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/kube/naming"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/options"
 	"github.com/spf13/cobra"
 )
 

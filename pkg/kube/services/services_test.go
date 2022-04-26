@@ -6,8 +6,8 @@ package services_test
 import (
 	"testing"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/kube"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/kube/services"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/kube"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/kube/services"
 	"github.com/stretchr/testify/assert"
 	v1 "k8s.io/api/core/v1"
 	nv1 "k8s.io/api/networking/v1"

@@ -11,8 +11,8 @@ import (
 	"sort"
 	"testing"
 
-	filehelpers "github.com/jenkins-x/jx-helpers/v3/pkg/files"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/stringhelpers"
+	filehelpers "github.com/shuttlerock/jx-helpers/v3/pkg/files"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/stringhelpers"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

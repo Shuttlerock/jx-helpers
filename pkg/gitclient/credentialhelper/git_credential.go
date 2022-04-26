@@ -10,13 +10,13 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/termcolor"
 	"github.com/jenkins-x/jx-logging/v3/pkg/log"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/termcolor"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/files"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/files"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/stringhelpers"
 	"github.com/pkg/errors"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/stringhelpers"
 )
 
 const (

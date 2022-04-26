@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/files"
 	"github.com/jenkins-x/jx-logging/v3/pkg/log"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/files"
 )
 
 const (

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/stringhelpers"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/stringhelpers"
 	"github.com/stretchr/testify/assert"
 )
 

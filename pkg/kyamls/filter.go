@@ -3,8 +3,8 @@ package kyamls
 import (
 	"strings"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/stringhelpers"
 	"github.com/pkg/errors"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/stringhelpers"
 	"github.com/spf13/cobra"
 	"sigs.k8s.io/kustomize/kyaml/yaml"
 )
@@ -90,8 +90,8 @@ func trimQuotes(text string) string {
 
 // AddFlags add CLI flags for specifying a filter
 func (f *Filter) AddFlags(cmd *cobra.Command) {
-	cmd.Flags().StringArrayVarP(&f.Kinds, "kind", "k", nil, "adds Kubernetes resource kinds to filter on. For kind expressions see: https://github.com/jenkins-x/jx-helpers/v3/tree/master/docs/kind_filters.md")
-	cmd.Flags().StringArrayVarP(&f.KindsIgnore, "kind-ignore", "", nil, "adds Kubernetes resource kinds to exclude. For kind expressions see: https://github.com/jenkins-x/jx-helpers/v3/tree/master/docs/kind_filters.md")
+	cmd.Flags().StringArrayVarP(&f.Kinds, "kind", "k", nil, "adds Kubernetes resource kinds to filter on. For kind expressions see: https://github.com/shuttlerock/jx-helpers/v3/tree/master/docs/kind_filters.md")
+	cmd.Flags().StringArrayVarP(&f.KindsIgnore, "kind-ignore", "", nil, "adds Kubernetes resource kinds to exclude. For kind expressions see: https://github.com/shuttlerock/jx-helpers/v3/tree/master/docs/kind_filters.md")
 	cmd.Flags().StringToStringVarP(&f.Selector, "selector", "", nil, "adds Kubernetes label selector to filter on, e.g. -s app=pusher-wave,heritage=Helm")
 	cmd.Flags().BoolVarP(&f.InvertSelector, "invert-selector", "", false, "inverts the effect of selector to exclude resources matched by selector")
 }

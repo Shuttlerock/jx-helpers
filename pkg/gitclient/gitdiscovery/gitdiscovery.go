@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/gitclient"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/gitclient/gitconfig"
-	"github.com/jenkins-x/jx-helpers/v3/pkg/gitclient/giturl"
 	"github.com/pkg/errors"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/gitclient"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/gitclient/gitconfig"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/gitclient/giturl"
 )
 
 // FindGitURLFromDir tries to find the git clone URL from the given directory

@@ -6,7 +6,7 @@ package maps_test
 import (
 	"testing"
 
-	"github.com/jenkins-x/jx-helpers/v3/pkg/maps"
+	"github.com/shuttlerock/jx-helpers/v3/pkg/maps"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

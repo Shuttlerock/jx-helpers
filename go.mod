@@ -1,4 +1,4 @@
-module github.com/jenkins-x/jx-helpers/v3
+module github.com/shuttlerock/jx-helpers/v3
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.4
@@ -30,7 +30,7 @@ require (
 	gopkg.in/yaml.v2 v2.4.0
 	helm.sh/helm/v3 v3.6.2
 	k8s.io/api v0.21.0
-	k8s.io/apimachinery v0.21.0
+	k8s.io/apimachinery v0.23.0
 	k8s.io/client-go v11.0.0+incompatible
 	sigs.k8s.io/kustomize/kyaml v0.10.15
 	sigs.k8s.io/yaml v1.2.0
